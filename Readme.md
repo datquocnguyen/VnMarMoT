@@ -9,7 +9,9 @@ VnMarMoT is a pre-trained [MarMoT](http://cistern.cis.lmu.de/marmot/) model for 
 	year={2017}
 	}
 	
-Please cite the paper above when VnMarMoT is used to produce published results or incorporated into other software. 
+**Please cite** the paper above when VnMarMoT is used to produce published results or incorporated into other software. 
+
+VnMarMoT has also been incorporated into our Java NLP annotation pipeline [VnCoreNLP](https://github.com/vncorenlp/VnCoreNLP) for Vietnamese. VnCoreNLP provides rich linguistic annotations through key NLP components of word segmentation, POS tagging, named entity recognition and dependency parsing.
 
 ## Usage
     
