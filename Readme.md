@@ -13,4 +13,6 @@ VnMarMoT has also been incorporated into our Java NLP annotation pipeline [VnCor
     // Convert a word-segmented corpus into column-based representation
     $ python Utility.py test.txt test.col.txt
     // Perform POS tagging using VnMarMoT
+	$ java -cp marmot.jar marmot.morph.cmd.Annotator --model-file vn.marmot --test-file form-index=<WORD-FORM-COLUMN-INDEX>,<INPUT-COLUMN-FORMATTED-FILE> --pred-file <OUTPUT-FILE>
+	// Example:
     $ java -cp marmot.jar marmot.morph.cmd.Annotator --model-file vn.marmot --test-file form-index=0,test.col.txt --pred-file test.pred.txt
